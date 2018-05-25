@@ -67,5 +67,12 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 4、如果输入$ git push origin master 出现：error:src refspec master does not match any<br>
     表示在push过程中，没发现缓存中有准备上传的文件，就是你没有“add”啦<br>
     解决：add、commit
-    
+5、（以下这个也不算错误）当输入：git pull origin master,出现一个对话框：“大致意思：请输入提交消息来解释为什么这种合并是必要的”<br>
+注：因为这个操作会更新、同步、合并远程仓库的文件到本地文件夹，防止发生不可逆的项目成果合并，因此有些团队会在此处设置密钥！
+如果要输入解释的话就需要:
+######
+    1.按键盘字母 i 进入insert模式
+    2.修改最上面那行黄色合并信息,可以不修改
+    3.按键盘左上角"Esc"
+    4.输入":wq",注意是冒号+wq,按回车键即可
  
