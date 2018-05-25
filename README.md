@@ -23,6 +23,11 @@ $git commit -m "备注内容"
 $git remote add origin git@github.com:Liquan-gdut/repo-name.git   //本地git客户端进行远程连接
 $git push origin master“（注：首次push则需加上要“-u”，以后则不用）
 
+## git小技巧
+
+1、在本地导入文本文件的时候，可将文本另存为“README.md，编码方式改为UTF-8”，这样文件就会保留换行符，不用再用markdown添加
+
+
 
 ## git常见错误集锦
 
