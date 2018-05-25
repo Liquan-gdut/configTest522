@@ -1,4 +1,4 @@
-# configTest522
+# github学习笔记
 > 测试文件：关联本地git仓库与远程git仓库
 
 ## 步骤：
