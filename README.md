@@ -24,7 +24,8 @@ $git remote add origin git@github.com:Liquan-gdut/repo-name.git   //本地git客
 $git push origin master“（注：首次push则需加上要“-u”，以后则不用）
 
 
-##git常见错误集锦
+## git常见错误集锦
+
 1、如果输入$ git push origin master
 
 提示出错信息：error:failed to push som refs to...
